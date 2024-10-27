@@ -151,10 +151,10 @@ wordpress:
     ##      https://github.com/bitnami/containers/blob/main/bitnami/mariadb/README.md#creating-a-database-user-on-first-run
     ##
     auth:
-      rootPassword: "" # This is sample; in reality use secret with secretProvider
+      rootPassword: "root" # This is sample; in reality use secret with secretProvider
       database: bitnami_wordpress
       username: bn_wordpress
-      password: ""
+      password: "root123"
     ## MariaDB Primary configuration
     ##
     primary:
