@@ -154,7 +154,7 @@ wordpress:
       rootPassword: "root" # This is sample; in reality use secret with secretProvider
       database: bitnami_wordpress
       username: bn_wordpress
-      password: "root123"
+      password: "from_secret_resource"
     ## MariaDB Primary configuration
     ##
     primary:
